@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+        <form method="get" action="save.php">
+                <label> Student Information</label><br>
+                <label> First Name </label>
+                <input placeholder="" name="name" type="text"/>
+                <label> Middle Name </label>
+                <input type="text" placeholder="" name="name"/>
+                <label> Last name </label>
+                <input type="text" placeholder="" name="name"/>
+                <br>
+                <label> Email </label>
+                <input type="email" placeholder="" name="email"/>
+                <label> Phone Number </label>
+                <input type="phone number" name="phone number"/>
+                <br>
+                <Label><B>Course taken</B></Label>
+                <br>
+                    <select name="COURSE">
+                        <option value="certificate in IT">Certificate in IT</option>
+                        <option value="CIT">CIT</option>
+                        <option value="DIT">DIT</option>
+                        <option value="BIT">BIT</option>
+                    </select>
+                <br>
+                <label><B>Gender</B></label>
+                <br>
+                <input type="radio" name="gender"/> Male
+                <br>
+                <input type="radio" name="gender"/> female
+                <br>
+                <input type="radio" name="gender"/> Others
+                <br>
+                <label><B>Choose the units Taken this semester</B></label>
+                <br>
+                <input type="checkbox" id="web development" name="unit" value="unit">
+                <label for="unit"> Web Development 1</label>
+                <input type="checkbox" id="object oriented programming" name="unit" value="unit">
+                <label for="unit"> 0bject Oriented Programming</label>
+                <input type="checkbox" id="programming desktop app" name="unit" value="unit">
+                 <label for="unit"> Programming Desktop app </label>
+                <br>
+                <input type="submit" name="submit" value="submit"/>
+
+                <input type="reset" name="reset" value="Reset"/>
+    
+                </form>
+        </body>
+    </head>
+</html>
